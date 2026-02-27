@@ -20,7 +20,7 @@ function addTask() {
     // Delete Button
     let deleteBtn = document.createElement("button");
     deleteBtn.textContent = "Delete";
-    deleteBtn.style.marginLeft="5px";
+    deleteBtn.style.marginLeft= "5px";
     deleteBtn.onclick = function() {
         li.remove();
     };
@@ -33,3 +33,4 @@ function addTask() {
     input.value = "";
 
 }
+
