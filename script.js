@@ -13,6 +13,7 @@ function addTask() {
     // Complete Button
     let completeBtn = document.createElement("button");
     completeBtn.textContent = "Complete";
+    completeBtn.style.marginLeft= "5px";
     completeBtn.onclick = function() {
         li.classList.toggle("completed");
     };
@@ -30,4 +31,5 @@ function addTask() {
     document.getElementById("taskList").appendChild(li);
 
     input.value = "";
+
 }
